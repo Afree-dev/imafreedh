@@ -55,7 +55,7 @@ const Hero = () => {
           </h1>
           <div className='mt-10 flex flex-wrap gap-3'>
           <a className='text-xl inline-flex items-center gap-3 uppercase italic py-2 px-4 border rounded-full hover:bg-siteBlack hover:text-siteWhite transition-all font-MontserratSemiBold' href="mailto:afreedhhanifa01@gmail.com"><span>Contact</span> <FaRegUser /></a>
-            <a className='text-xl inline-flex items-center gap-3 uppercase italic py-2 px-4 border rounded-full hover:bg-siteBlack hover:text-siteWhite transition-all font-MontserratSemiBold' href={cv} target='_blank'><span>Download CV</span> <FaExternalLinkAlt /></a>
+            <a className='text-xl inline-flex items-center gap-3 uppercase italic py-2 px-4 border rounded-full hover:bg-siteBlack hover:text-siteWhite transition-all font-MontserratSemiBold' href={cv} target='_blank' download={true}><span>Download CV</span> <FaExternalLinkAlt /></a>
           </div>
         </div>
         <div className='space-y-5 grid'>
