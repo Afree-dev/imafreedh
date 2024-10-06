@@ -66,10 +66,12 @@
 }
 
 main {
-    background-image: url("./assets/images/hero-bg.png");
+    /* background-image: url("./assets/images/hero-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: top center; */
+    background-image: radial-gradient(#00000055 1px, transparent 0);
+    background-size: 16px 16px;
 }
 
 .hero-section .heroContent,
