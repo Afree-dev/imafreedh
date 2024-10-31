@@ -57,7 +57,7 @@ const Contact = () => {
                         />
                     </fieldset>
                     <fieldset className='flex gap-1 flex-col'>
-                        <label htmlFor='message' className='text-xl'>Email</label>
+                        <label htmlFor='message' className='text-xl'>Message</label>
                         <textarea 
                             name="message" 
                             id='message' 
